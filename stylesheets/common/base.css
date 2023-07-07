@@ -1,0 +1,29 @@
+/* Base 스타일 작성 */
+:root{
+    /* base */
+    font-family: 'Noto Sans KR', sans-serif;
+    /* 폰트패밀리 변수로 작성 여부.. 작성해야 하나요?? */
+    box-sizing: border-box;
+
+    /* Font size */
+    --font-tit-large : 32px;
+    --font-tit-medium : 28px;
+    --font-tit-regular : 24px;
+    --font-tit-small : 16px;
+    
+    --font-large : 20px;
+    --font-medium : 18px;
+    --font-regular : 16px;
+    --font-small : 14px;
+    --font-micro : 12px;
+
+    /* Font weight */
+    --weight-bold : 700;
+    --weight-medium : 500;
+    --weight-regular : 400;
+
+    /* Padding */
+    --pd-large : 48px;
+    --pd-medium : 24px;
+    --pd-regular : 16px;
+}
